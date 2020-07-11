@@ -1,7 +1,9 @@
 # Password-Generator
 Homework 3
-Use the given HTML layout and create checkboxes for users to choose which elements they want their password to inlcude
-Use javascript to create variables for each type of password element
+Use javascript to create variables, prompts and conditionals to create a site that prompts the user to choose which characters they want their password to include. Variables should include uppercase, lowercase, numbers, characters and should also have a prompt where the user chooses how many characters they want in their password.  
+
+
+
 
 
 
@@ -14,9 +16,11 @@ Create prompt/confirm for:
     Lowercase
     Numbers
     Special Characters
-    Length of password form 8-128
 
-Store the information that the user chooses 
+Store the information that the user chooses in a variable 
+Include a for loop so that the computer knows to only generate as many characters as the user chose. 
+Use Math.random code so that the computer randomly chooses the password  characters.
+Create variables and include .value property to put the generated password into password box.
     
     
 
